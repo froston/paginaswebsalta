@@ -10,7 +10,7 @@ module.exports = {
       y tenga mayor presencia en el mercado. Nuestros clientes ya lo experimentaron, 
       contactanos y te daremos una solución a la medida de tu empresa.
     `,
-    author: `Pavel Muller`,
+    author: `Paginas Web Salta`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -24,21 +24,21 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
-        start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
-      },
-    },
-    {
       resolve: `gatsby-plugin-typography`,
       options: {
         pathToConfigModule: `src/utils/typography`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Paginas Web Salta`,
+        short_name: `Paginas Web Salta`,
+        start_url: `/`,
+        background_color: `#8DC6FF`,
+        theme_color: `#8DC6FF`,
+        display: `standalone`,
+        icon: `src/images/logo.png`,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

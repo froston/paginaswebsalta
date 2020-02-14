@@ -1,14 +1,16 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import Logo from '../images/logo.png'
 
 const Header = ({ siteTitle }) => (
   <header id="pws-header" >
-    <h1>
-      <Link to="/">
-        {siteTitle}
-      </Link>
-    </h1>
+    <Link to="/">
+      <img src={Logo} alt="Paginas Web Salta Logo" />
+      <h1>
+          {siteTitle} 
+      </h1>
+    </Link>
   </header>
 )
 

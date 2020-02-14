@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -19,6 +18,11 @@ const IndexPage = () => (
       lo experimentaron, contactanos y te daremos una solución a la medida de tu
       empresa.
     </p>
+    <div style={{textAlign: 'right', position: 'fixed', zIndex:9999999, bottom: 0, width: 'auto', right: '1%', cursor: 'pointer', lineHeight: 0, display:'block !important'}}>
+      <a title="Hosted on free web hosting 000webhost.com. Host your own website for FREE." target="_blank">
+        <img src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png" alt="www.000webhost.com" />
+      </a>
+    </div>
   </Layout>
 )
 

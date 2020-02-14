@@ -92,7 +92,7 @@ blockquote ul {
 #pws-header li + li {
   margin-left: 24px;
 }
-#pws-header h1 a {
+#pws-header a h1 {
   background: #8DC6FF;
   color: #272822;
   font-size: 250%;
@@ -127,6 +127,15 @@ footer {
 .social-links a:hover {
   color: #8DC6FF;
   text-decoration: none;
+}
+.social-links a.whatsapp:hover {
+  color: #53C754;
+}
+.social-links a.facebook:hover {
+  color: #4267B2;
+}
+.social-links a.github:hover {
+  color: #fff;
 }
 .social-links li {
   display: inline-block;
@@ -175,6 +184,7 @@ pre[class*="language-"] {
 @media screen and (max-width: 800px) {
   #container {
     width: 92%;
+    margin-bottom: 80px;
   }
 }
 @media screen and (max-width: 600px) {
